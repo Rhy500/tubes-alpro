@@ -1,0 +1,108 @@
+Contoh Input dan Output
+Input Data Awal
+
+Masukkan beberapa data pariwisata:
+
+Copy code
+001 Pantai Indah Pantai 200 50
+002 Gunung Hijau Pendakian 100 80
+003 Taman Bunga Taman 50 30
+Hasil Output Setelah Data Dimasukkan (setelah memilih opsi 1 dan memasukkan data di atas):
+
+markdown
+Copy code
+=====================================
+               Data Parawisata          
+=====================================
+  001  Pantai Indah       Pantai 200  50   
+  002  Gunung Hijau       Pendakian 100  80  
+  003  Taman Bunga        Taman   50  30   
+=====================================
+Contoh Operasi Menambah Data Baru
+
+Masukkan data baru menggunakan opsi 1:
+
+Copy code
+004 Danau Biru Pemandian 150 40
+Hasil Output Setelah Data Ditambahkan (setelah memilih opsi 1 dan memasukkan data di atas):
+
+markdown
+Copy code
+=====================================
+               Data Parawisata          
+=====================================
+  001  Pantai Indah       Pantai 200  50   
+  002  Gunung Hijau       Pendakian 100  80  
+  003  Taman Bunga        Taman   50  30   
+  004  Danau Biru         Pemandian 150  40   
+=====================================
+Contoh Operasi Mengubah Data
+
+Masukkan ID data yang ingin diubah (misalnya, 002):
+
+Copy code
+002
+Masukkan data baru setelah ID 002 dipilih:
+
+Copy code
+Gunung Merah Pendakian 120 90
+Hasil Output Setelah Data Diubah (setelah memilih opsi 2 dan memasukkan data di atas):
+
+markdown
+Copy code
+Data berhasil diubah
+=====================================
+               Data Parawisata          
+=====================================
+  001  Pantai Indah       Pantai 200  50   
+  002  Gunung Merah       Pendakian 120  90  
+  003  Taman Bunga        Taman   50  30   
+  004  Danau Biru         Pemandian 150  40   
+=====================================
+Contoh Operasi Menghapus Data
+
+Masukkan ID data yang ingin dihapus (misalnya, 003):
+
+Copy code
+003
+Hasil Output Setelah Data Dihapus (setelah memilih opsi 3 dan memasukkan data di atas):
+
+markdown
+Copy code
+Data berhasil dihapus
+=====================================
+               Data Parawisata          
+=====================================
+  001  Pantai Indah       Pantai 200  50   
+  002  Gunung Merah       Pendakian 120  90  
+  004  Danau Biru         Pemandian 150  40   
+=====================================
+Contoh Operasi Mengurutkan Data
+
+Pilih opsi 4 untuk mengurutkan data berdasarkan biaya:
+
+Copy code
+2
+Hasil Output Setelah Data Diurutkan Berdasarkan Biaya (setelah memilih opsi 4 dan memasukkan input di atas):
+
+markdown
+Copy code
+Urutkan berdasarkan:
+1. Jarak
+2. Biaya
+3. Fasilitas
+Data berhasil diurutkan
+=====================================
+               Data Parawisata          
+=====================================
+  002  Gunung Merah       Pendakian 120  90  
+  004  Danau Biru         Pemandian 150  40   
+  001  Pantai Indah       Pantai 200  50   
+=====================================
+Keluar dari Program
+
+Pilih opsi 5 untuk keluar dari program:
+
+Copy code
+5
+Program akan selesai dan keluar.
